@@ -25,6 +25,7 @@ requirements:
 test:
   imports:
     - pymysql
+    - pymysql.constants
 
 about:
   home: http://github.com/PyMySQL/PyMySQL
