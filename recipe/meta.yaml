@@ -1,6 +1,6 @@
 {% set name = "PyMySQL" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "34e19bfff13e8b2ffc38a68f9ad064609d48f3d46320e8ab8184af527e662629" %}
+{% set version = "0.9.1" %}
+{% set sha256 = "e0a31e372968244d6c196baa4402e8100cdb87fd764d983c1aa751d977f68668" %}
 
 package:
   name: {{ name|lower }}
@@ -19,8 +19,10 @@ requirements:
   host:
     - python
     - pip
+    - cryptography
   run:
     - python
+    - cryptography
 
 test:
   imports:
