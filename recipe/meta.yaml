@@ -40,7 +40,7 @@ test:
     - pip
 
 about:
-  home: http://github.com/PyMySQL/PyMySQL
+  home: https://github.com/PyMySQL/PyMySQL
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -49,7 +49,7 @@ about:
     This package contains a pure-Python MySQL client library. The goal of
     PyMySQL is to be a drop-in replacement for MySQLdb and work on CPython,
     PyPy and IronPython.
-  doc_url: http://pymysql.readthedocs.io/
+  doc_url: https://pymysql.readthedocs.io/
   dev_url: https://github.com/PyMySQL/PyMySQL
 
 extra:
